@@ -84,6 +84,7 @@ fun <InsertViewModel> InsertView(
     }
 }
 
+
 private fun Any?.insertMahasiswa(
     nama: String,
     nim: String,
