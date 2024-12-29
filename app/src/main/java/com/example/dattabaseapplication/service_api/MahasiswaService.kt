@@ -13,6 +13,7 @@ interface MahasiswaService {
     suspend fun deleteMahasiswa(@Path("nim") nim: String)
 }
 
+
 annotation class DELETE(val value: String)
 
 annotation class GET(val value: String)
