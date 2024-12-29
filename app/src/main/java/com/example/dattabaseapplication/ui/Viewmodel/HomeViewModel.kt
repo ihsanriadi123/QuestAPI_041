@@ -12,6 +12,7 @@ sealed class HomeUiState {
     object Error : HomeUiState()
 }
 
+
 class HomeViewModel(private val repository: MahasiswaRepository) : ViewModel() {
     var uiState: HomeUiState = HomeUiState.Loading
         private set
