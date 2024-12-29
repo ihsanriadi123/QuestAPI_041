@@ -5,6 +5,7 @@ interface DestinasiNavigator {
     val route: String
 }
 
+
 object DestinasiHome : DestinasiNavigator {
     override val route = "home"
 }
